@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(
+    117.9deg,
+    rgb(240, 228, 149) -3.5%,
+    rgb(173, 210, 243) 53.8%,
+    rgb(148, 231, 255) 100.4%
+  );
+}
+
+h1 {
+  color: rgb(52, 49, 49);
+  padding: 20px 0px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif
+      "
+}
+
+input {
+    padding: 7px 12px;
+    color: rgb(52, 49, 49);
+    font-size:large;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    font-family: "
+      Franklin Gothic Medium ", " Arial Narrow ", Arial, sans-serif";
+}
+
+#search-city {
+  box-sizing: border-box;
+  font-weight: 500px;
+  padding: 80px 10px;
+  text-align: center;
+  font-weight: 500px;
+  color: rgb(52, 49, 49);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif
+      "
+}
+
+.btn {
+      font-size: large;
+      font-weight:bold;
+      border-radius: 10px;
+      color: rgb(52, 49, 49);
+      background: transparent;
+      border-color: rgb(52, 49, 49);
+}
+
+.temperatureDescription, .todaysDate {
+  text-align: center;
+  font-weight: 00;
+  padding: 10px;
+  font-size: 35px;
+  color: rgb(52, 49, 49);
+  font-family: "
+      Franklin Gothic Medium ", " Arial Narrow ", Arial, sans-serif";
+}
+
+#current-temperature {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(52, 49, 49);
+}
+
+#city {
+  text-align: center;
+  font-weight: 00;
+  padding: 10px;
+  font-size: 40px;
+  color: rgb(52, 49, 49);
+  font-family: "
+      Franklin Gothic Medium ", " Arial Narrow ", Arial,
+    sans-serif
+      ";
+}
+
+#celsius-temperature, #fahrenheit-temperature {
+  
+  text-align: center;
+  font-weight: 00;
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(52, 49, 49);
+  font-family: "
+      Franklin Gothic Medium ", " Arial Narrow ", Arial, sans-serif";
+}
+
+.temperatures {
+  text-align: center;
+}
+
+.degrees {
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+img,
+.days,
+.temp {
+  color: rgb(103, 97, 97);
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
